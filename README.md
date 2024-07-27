@@ -28,7 +28,7 @@ conda activate torch2
 ```
 
 ```
--- **NOTE** These follow steps are optional if you are not currently learning machine learning or deep learning -- {: style="color:red"}
+<span style="color:red">-- **NOTE** These follow steps are optional if you are not currently learning machine learning or deep learning -- </span>
 ```
 
 # 3. Install PyTorch package

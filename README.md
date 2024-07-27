@@ -27,6 +27,9 @@ conda create -n torch2 python=3.9
 conda activate torch2
 ```
 
+```
+-- **NOTE** These follow steps are optional if you are not currently learning machine learning or deep learning -- {: style="color:red"}
+```
 
 # 3. Install PyTorch package
 ## Recommend installing the GPU version based on your platform

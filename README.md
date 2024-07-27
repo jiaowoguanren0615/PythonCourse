@@ -14,7 +14,6 @@
 ## [Anaconda](https://www.anaconda.com/download/)
 
 
-
 # 2. Create and activate a conda virtual environment  
 
 ```shell
@@ -41,7 +40,6 @@ pip install tensorboard -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 # 5. Install Graphviz (optional)
-##  Install Graphviz 
 ## [Download | Graphviz](https://www.graphviz.org/download/)
 
 

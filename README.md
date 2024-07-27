@@ -35,7 +35,7 @@ conda activate torch2
 
 # 4. Install Tensorboard package
 ```shell
-pip install tensorboard -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tensorboard
 ```
 
 
@@ -45,7 +45,7 @@ pip install tensorboard -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 6. Install other packages
 ```shell
-pip install -U jupyter numpy pandas matplotlib seaborn torchviz tqdm mglearn torchinfo transformers scikit-learn Pillow timm -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -U jupyter numpy pandas matplotlib seaborn torchviz tqdm mglearn torchinfo transformers scikit-learn Pillow timm
 ```
 
 

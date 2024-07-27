@@ -1,5 +1,7 @@
 # Calculate the total number of bytes (rounding down to ignore fractional bytes)
-total_bytes = int(input("Input a number of bits: "))
+# total_bytes = int(input("Input a number of bits: "))
+total_bytes = 8196
+
 
 BYTES_IN_BITS = 8
 BYTES_IN_KILOBYTE = 1024 * BYTES_IN_BITS

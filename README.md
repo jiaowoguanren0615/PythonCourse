@@ -8,7 +8,7 @@
 # 1. Miniconda(recommend) or Anaconda
 ## Precautions
 If you are using M1/M2/M3 devices. Please download the correct file.
-![image]()
+![image](https://github.com/jiaowoguanren0615/PythonCourse/blob/main/sample_picture/miniconda_install.png)  
 
 ## [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
 ## [Anaconda](https://www.anaconda.com/download/)

@@ -32,3 +32,13 @@ kb = int(kilobytes)
 bytes = int(Bytes)
 b = int(bits)
 print(f"{total_bytes} b = {mb} MB {kb} KB {bytes} B {b} b")
+
+
+if __name__ == '__main__':
+    # first_statement = input("dogs are mammals. ")
+    # print(first_statement)
+    a = input("Enter something: ")
+    if a == None:
+        print(1)
+    elif a == '' or a == 'Y':
+        print(2)

@@ -1,0 +1,37 @@
+Mac address : 
+DHCP Offer: Sorce(199.117.195.220 ;DHCPip地址)→Des(199....阿波罗ip地址)
+
+response XXX.juno.me A 199.....(即XXXip地址)
+
+visiting web server(HTTP协议)：
+eg: visit external web server
+
+a.Identify the first frame that initiates the connection. 首先找阿波罗主机IP → 某一(多)个IP地址，后一一排除
+frame number(根号码); the connection(找TCP协议3次握手)
+client number(找Source)
+in hex(16进制)
+
+b.Identify the second frame of the three-way handshark. frame number:392
+
+c.与ab同理
+
+d. Identify the frame of the GET request for the default HTML page(GET / HTTP/1.1). frame number:394
+URL:右键复制值（找HTTP的框）
+enter the size of application layer message in bytes as an integer number：TCP payload 139byte
+
+e. Identify the frame of the server response containing the HTML page. frame number: 400(找text/html)
+enter the size of application layer message in bytes as an integer number：TCP payload 490
+enter the size of application layer user data(without application layer header) :  274(找Content-Length)
+The HTML page content has a 16-digit hex value as a flag. Enter the flag: (找text/html,右键追踪流HTTP stream → Flag is: 2FBD.....)
+
+f. The page contains an image. Identify the GET request for the picture. Enter the frame number: 402(找GET /pic1.jpg HTTP/1.1)
+URI:右键复制值（找HTTP的框）
+enter the size of application layer message in bytes as an integer number：TCP payload 178
+
+g. Identify the frame of the server response containing the picture. How many TCP segments was required to download this picture:
+(找回复，它的回复里包含了JPEG JFIF image，找TCP框 TCP segments Len：21949)
+Enter the size of the picture:2300659（找HTTP框 Content length = filedata）
+The picture content has a 16-digit hex value as a flag. Enter the flag:(点击文件，到处对象（HTTP）保存到桌面打开照片输入照片里面的代码)
+
+h. Send an email (SMTP协议)
+queue id: 看info里面的queue as 后面的ID
